@@ -18,8 +18,8 @@ body {
 }
 
 .topnav a:hover {
-    background-color: #eeeeee;
-    color: black;
+    background-color: #a6a6a6;
+    color: #ffffff;
 }
 
 .topnav a.active {
