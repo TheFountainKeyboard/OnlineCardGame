@@ -47,10 +47,10 @@
 
     firebase.database().ref('emails').push().set(emailObject)
         .then(function(snapshot) {
-            success(); // some success method
+            //success(); // some success method
         }, function(error) {
-            console.log('error' + error);
-            error(); // some error method
+            //console.log('error' + error);
+            //error(); // some error method
         });
 	}
 	saveToFirebase("email@email.org");
