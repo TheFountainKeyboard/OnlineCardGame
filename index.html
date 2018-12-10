@@ -45,7 +45,7 @@
         email: email
     };
 
-    firebase.database().ref('subscription-entries').push().set(emailObject)
+    firebase.database().ref('emails').push().set(emailObject)
         .then(function(snapshot) {
             success(); // some success method
         }, function(error) {
@@ -53,6 +53,7 @@
             error(); // some error method
         });
 	}
+	saveToFirebase("email@email.org");
 	
 </script>
 	</body>
